@@ -26,7 +26,7 @@ export default function Home() {
           ))}
         </ul>
       </div>
-      <div className={styles.column}>Guichê</div>
+      <div className={[styles.column, styles.perfil].join(' ')}>Perfil</div>
     </div>
   );
 }
